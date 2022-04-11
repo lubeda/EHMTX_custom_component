@@ -1,5 +1,8 @@
 # EHMTX Notify component for Home Assistant
 
+## Intro
+
+If you use [EHMTX](https://github.com/lubeda/EsphoMaTrix) with home assistant you can show notification with esphome service calls. Some situations are easier when you use notfiy call. This component translates notifier calls to the corresponding esphome calls. For full functionality you should still use esphome calls.
 
 ### Installation
 
@@ -37,7 +40,7 @@ notify:
 | name<br>_(string)(Required)_                    | n/a                               |             | The name you would like to give to the ehmtx the notifier |
 | icon<br>_(string)(Required)_                    | n/a                               |error        | a standard icon for situations where no icon is specified in service call|
 
-#### usage in service calls
+### usage in service calls
 
 ```
 service: notify.myehmtx32
