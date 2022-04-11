@@ -26,7 +26,7 @@ A clear and concise description of what you expected to happen.
 ```yaml
 notify:
  - platform: ehmtx
-   name: SkyQ Living Room
+   name: ehmtx32
    device: ehmtx32
 ````
 **Output of HA logs**  
