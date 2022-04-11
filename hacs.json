@@ -1,0 +1,8 @@
+{
+  "name": "ehmtx",
+  "zip_release": false,
+  "homeassistant": "2022.4.1",
+  "content_in_root": false,
+  "domains": ["notify"],
+  "render_readme": true
+}
